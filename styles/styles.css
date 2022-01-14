@@ -55,5 +55,50 @@ table {
 **********************************************************/
 
 html {
-    background-color: red;
+    background-color: blue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+
+body {
+    line-height: 1.6;
+    width:800px;
+    /* two values on margin mean top-bottom, and left-right The space between means you're applying all the values*/
+    margin:0 auto;
+    background-color: blanchedalmond;
+
+}
+
+.larger {
+    font-size:2rem;
+}
+
+#reallyBig {
+    font-size: 3rem;
+}
+
+/* target only the paragraphs that are inside the main tag */
+main p {
+    color: white;
+}
+
+/* Css box model includes margin, border, and padding:
+
+margin is outside the element and pushes other elements away.
+
+padding is inside the element and pushes content awy form theelement's edge
+
+border is in between the two.
+ */
+
+ main {
+     background-color: blue;
+     margin: 10px; /* One value applies to all sides */
+     padding: 15px; 
+    border: 10px solid black;
+ }
